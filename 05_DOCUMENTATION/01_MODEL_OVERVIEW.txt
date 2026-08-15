@@ -1,0 +1,26 @@
+SEMICON INDIA HACKATHON 2026
+FINAL MODEL OVERVIEW
+
+Model file: localization_FINAL_FAST.py
+
+Purpose:
+Visual localization of a reference image within a larger search image for the
+Drift-Sense Navigation-Error Recovery task.
+
+FINAL VALIDATED CONFIGURATION
+- Dataset pairs: 1000
+- Successful localizations: 986
+- Failed cases: 14
+- Accuracy: 98.60%
+- Average error: 7.29 px
+- Minimum error: 0.00 px
+- Maximum error: 850.97 px
+- Cases within 1 px: 886
+- Cases within 3 px: 986
+- Recovery used: 223
+- Ambiguous cases: 47
+- FAST workers: 6
+- CPU threads available during validation: 12
+
+The final model file was executed from the FINAL_SUBMISSION/01_FINAL_MODEL
+folder and reproduced the validated 98.60% result on the 1000-pair dataset.
