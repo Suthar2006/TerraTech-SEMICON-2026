@@ -1,0 +1,42 @@
+SEMICON INDIA HACKATHON 2026
+FINAL VALIDATED RESULTS
+
+FINAL MODEL:
+localization_FINAL_FAST.py
+
+DATASET:
+1000 pairs
+
+FINAL SCORE:
+98.60% accuracy
+
+SUMMARY:
+986 successful
+14 failed
+
+LOCALIZATION ACCURACY:
+886 cases were localized within 1 pixel.
+All 986 successful cases were within 3 pixels.
+
+ERROR:
+Average: 7.29 px
+Minimum: 0.00 px
+Maximum: 850.97 px
+
+RECOVERY:
+Recovery used: 223 cases
+Ambiguous cases: 47
+
+EXECUTION:
+12 CPU threads available
+6 FAST workers
+Processing time: 4987.82 seconds
+Observed speed: 0.20 pair/s
+
+FAILED CASES:
+The 14 failed cases are preserved in FINAL_SUBMISSION/04_FAILED_CASES
+for analysis and transparency. They are not counted as successful
+localizations.
+
+FINAL STATUS:
+The model is frozen as the final validated submission version.

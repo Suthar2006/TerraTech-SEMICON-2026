@@ -1,0 +1,35 @@
+SEMICON INDIA HACKATHON 2026
+FINAL PERFORMANCE REPORT
+
+Validation dataset: 1000 image pairs
+
+RESULTS
+Successful       : 986
+Failed           : 14
+Accuracy         : 98.60%
+Average Error    : 7.29 px
+Minimum Error    : 0.00 px
+Maximum Error    : 850.97 px
+
+ERROR DISTRIBUTION
+<= 1 px          : 886
+<= 3 px          : 986
+<= 5 px          : 986
+<= 10 px         : 986
+<= 20 px         : 986
+<= 50 px         : 986
+<= 100 px        : 986
+
+ADDITIONAL METRICS
+Recovery used    : 223
+Ambiguous cases  : 47
+
+FINAL VALIDATION RUN
+Processing time  : 4987.82 sec
+Speed            : 0.20 pair/s
+CPU threads      : 12
+FAST workers     : 6
+
+The final-submission copy of localization_FINAL_FAST.py was executed and
+returned the same 986/1000 successful result and 98.60% accuracy as the
+previously validated final version.
